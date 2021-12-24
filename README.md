@@ -5,9 +5,9 @@ Explainable Artificial Intelligence (XAI) methods are intended to help human use
 
 ## Requirements
   
-  Markup : * Python 3.6.12
-           * Tensorflow 2.4.1
-           * Numpy 1.21.2
+   * Python 3.6.12
+   * Tensorflow 2.4.1
+   * Numpy 1.21.2
   
 ## Usage
 
