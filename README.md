@@ -2,4 +2,19 @@
 
 ## What is Responsibility?
 Explainable Artificial Intelligence (XAI) methods are intended to help human users better understand and trust the decision making of an AI agent, often applied to machine learning (ML) models. Responsibility is a novel XAI approach that identifies the most responsible training instance for a particular decision. This instance can then be presented as an explanation: ``this is what I (the AI) learned that led me to do that``. 
-$ Responsibility relies on altering the training process itself, to detect the training instance that maximally altered each parameter inside an ML model during training. At inference time, we can then determine the most important parameter for a particular decision, the most activated weight in the case of deep neural networks. We can then identify the training sample that maximally altered the most activated weight. We refer to this as ``\emph{the most responsible training instance}'' for the model's decision. We can then present the most responsible training instance to the human user as an answer to how the AI model learned to make that particular decision.
+
+## Requirements
+
+  Python 3.6.12
+  Tensorflow 2.4.1
+  Numpy 1.21.2
+  
+## Usage
+
+### train.py:
+    Run this file to train a machine learning model with default configuration stated in ``get_default_config`` function.  
+### calc_responsible_samples,py
+    Run this file to find the most responsible training samples for ``test_sample_num`` number of test samples from each class.
+### plot_samples.py
+    Run this file to plot each sample and their associated responsible training samples.
+   
