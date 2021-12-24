@@ -1,1 +1,3 @@
 # Responsibility
+
+## What is Responsibility?
