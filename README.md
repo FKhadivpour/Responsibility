@@ -11,7 +11,7 @@ Explainable Artificial Intelligence (XAI) methods are intended to help human use
   
 ## Usage ##
 
-### train.py: ### Run this file to train a machine learning model with default configuration stated in ``get_default_config`` function.  
-### calc_responsible_samples.py: ### Run this file to find the most responsible training samples for ``test_sample_num`` number of test samples from each class.
-### plot_samples.py: ### Run this file to plot each sample and their associated responsible training samples.
+**train.py:** Run this file to train a machine learning model with default configuration stated in ``get_default_config`` function.  
+**calc_responsible_samples.py:** Run this file to find the most responsible training samples for ``test_sample_num`` number of test samples from each class.
+**plot_samples.py:** Run this file to plot each sample and their associated responsible training samples.
    
