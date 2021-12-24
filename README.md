@@ -4,10 +4,10 @@
 Explainable Artificial Intelligence (XAI) methods are intended to help human users better understand and trust the decision making of an AI agent, often applied to machine learning (ML) models. Responsibility is a novel XAI approach that identifies the most responsible training instance for a particular decision. This instance can then be presented as an explanation: ``this is what I (the AI) learned that led me to do that``. 
 
 ## Requirements
-
-  Python 3.6.12
-  Tensorflow 2.4.1
-  Numpy 1.21.2
+  
+  Markup : * Python 3.6.12
+           * Tensorflow 2.4.1
+           * Numpy 1.21.2
   
 ## Usage
 
