@@ -16,4 +16,5 @@ Explainable Artificial Intelligence (XAI) methods are intended to help human use
 - **plot_samples.py:** Run this file to plot each sample and their associated responsible training samples.
 - **generate_data_for_actor_critic_experiment.py:** Run this file to generate train and test samples for actor critic experiment (quantitative evluation).
 - **actor_critic_experiment.py:** Run this file to to do actor critic experiment (quantitative evluation).
+- **appendices_experiments.py:** Run this file to to do experiments in the appendices.
    
